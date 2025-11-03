@@ -137,19 +137,20 @@
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        ScrollReveal().reveal('.main, .skill-card, .card, #contact', {
-            delay: 100,
-            duration: 800,
-            distance: '40px',
-            origin: 'bottom',
-            easing: 'ease-in-out',
-            interval: 120,
-            reset: true
+        window.addEventListener('load', () => {
+            ScrollReveal().reveal('.main, .skill-card, .card, #contact', {
+                delay: 100,
+                duration: 800,
+                distance: '40px',
+                origin: 'bottom',
+                easing: 'ease-in-out',
+                interval: 120
+            });
         });
-
     </script>
 
 </body>
 
 </html>
+
 
