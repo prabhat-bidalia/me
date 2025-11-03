@@ -13,8 +13,9 @@ body {
 }
 
 .navbar-brand {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.3rem;
+    letter-spacing: 2px;
 }
 
 .main {
@@ -196,4 +197,5 @@ footer a:hover {
         max-width: 18rem;
     }
 }
+
 
