@@ -22,9 +22,9 @@ body {
     max-width: 750px;
     margin: 80px auto 50px;
     padding: 30px 20px;
-    text-align: center;
+    text-align: left;
 }
-
+.main h2{text-align: center}
 h1 {
     margin-bottom: 20px;
 }
@@ -197,5 +197,6 @@ footer a:hover {
         max-width: 18rem;
     }
 }
+
 
 
